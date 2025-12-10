@@ -1,0 +1,49 @@
+#filterButton:hover {
+	background-color: #a70e92;
+	color: #edf5fc;
+	cursor: pointer;
+}
+
+.product-card {
+	transition: transform 0.3s ease-in-out;
+	border-color: #a70e92;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card button:hover {
+	background-color: #a70e9290;
+	cursor: pointer;
+}
+
+#closebtn:hover {
+	cursor: pointer;
+}
+
+#slideshow button:hover {
+	cursor: pointer;
+	background-color: #a70e92;
+}
+
+#slideshow button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prevBtn {
+	left: 0;
+}
+
+#nextBtn {
+	right: 0;
+}
