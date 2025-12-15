@@ -104,6 +104,7 @@ function showProductDetails(product) {
 	
 	mainPage.style.display = "none";
 	productDetails.style.display = "block";
+	productDetails.scrollIntoView();
 	
 	const section = product.section;
 	const closebtn = document.getElementById("closebtn");
@@ -259,4 +260,5 @@ function nextSlide() {
 	slides.forEach(slide => slide.style.display = "none");
 	slides[slideIndex].style.display = "block";
 	intervalId = setInterval(nextSlide, 3000);
+
 }
